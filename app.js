@@ -23,7 +23,7 @@ app.get("/", async (req, res) => {
     await page.goto("https://google.com");
 
     console.log("saying hi");
-    await page.type("input", "hello");
+    await page.type("input", "hello natasha");
 
     console.log("snapping a pic");
     await page.screenshot({ path: pngName });
