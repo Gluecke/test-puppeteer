@@ -16,4 +16,14 @@ npm install
 node app.js
 ```
 
-navigate to `http://localhost:3000/`
+navigate to `http://localhost:8080/`
+
+## Deployment
+
+`master` builds and deploys to heroku
+
+# Troubleshoot
+
+Heroku instance does not spin up with everything required to run puppeteer. Must add [puppeteer-heroku-buildpack][1] to start chromium with pupeteer.
+
+[1]: https://github.com/jontewks/puppeteer-heroku-buildpack
